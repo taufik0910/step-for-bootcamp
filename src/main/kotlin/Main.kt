@@ -8,7 +8,10 @@ fun main(args: Array<String>) {
 
     /*berikut merupakan contoh penerapan konsep sederhana dalam kotlin, hal ini
     * dibuat untuk latihan dalam step awal dalam megikuti kelas bootcamp kelas andriod enginner
-    * di binar akademy*/
+    * di binar akademy
+    *
+    * step ini merupakan cara untuk mempelajari konsep constructor primary
+    * */
 
     // Try adding program arguments via Run/Debug configuration.
     // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.

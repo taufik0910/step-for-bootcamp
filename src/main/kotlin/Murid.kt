@@ -1,25 +1,11 @@
-class Murid(val nama: String ="Murid", var umur : Int= 23)
-//sintax di atas merupakan penerapan konsep primary constructor
-{
-    val murNama : String
-    var murUmur : Int
-
-    init {
-//        sintax ini merupakan penerapan method init (standard library)
-        if (nama == "Murid"){
-            murNama = "Farid".toUpperCase()
-            murUmur = 23
-        }else{
-            murNama =nama.toUpperCase()
-            murUmur = umur
-            //m
-        }
-        println("Nama Murid : $murNama")
-        println("Umur Murid : $murUmur")
-    }
-
-    /*sintak ini merupakan konsep penerapan konsep init dan primary constructor
-    * dalam contoh berikut, kita memiliki blok penginisiasi yang telah kita nyatakan dalam constructor
-    * menggunakan INIT. dalam blok ini,
-    * kita dapat memiliki logika inisialisasi tambahan sesuai dengan kita kehendaki */
+class Murid : Sekolah{
+  constructor(nama : String, umur : Int):super(nama, umur)
+  {
+      println("child class constructor")
+      println("Nama Murid nya : $nama")
+      println("Umur murid nya  : $umur")
+  }
 }
+
+/*merupakan contoh class child cunstructor
+* dengan ada nya penambahkan method  SUPER*/

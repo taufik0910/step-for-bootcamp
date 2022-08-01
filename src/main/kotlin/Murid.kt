@@ -12,6 +12,7 @@ class Murid(val nama: String ="Murid", var umur : Int= 23)
         }else{
             murNama =nama.toUpperCase()
             murUmur = umur
+            //m
         }
         println("Nama Murid : $murNama")
         println("Umur Murid : $murUmur")
